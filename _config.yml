@@ -1,21 +1,21 @@
 # Site settings
 title: Zhw Blog
-SEOTitle: 赵伟的博客 | Zhw Blog
+SEOTitle: 赵伟的博客 | CodeMadS2 Blog
 header-img: img/home-bg.jpg
 email: zw521friend@163.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Zhw赵伟 的个人博客，与你一起发现更大的世界。"
-keyword: "赵伟, Zhw赵伟, Zhw, 鬼栈, Zhw, @CodeMadS2, 赵伟的博客, Zhw Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 天使的男朋友"
-baseurl: ""          # for example, '/blog' if your blog hosted on 'host/blog'
+description: "关于前端与探索、源码爱好者 | 赵伟，Web & Mobile Lover，Front-End Explore，Source Enthusiasts | 这里是 @CodeMadS2赵伟 的个人博客，与你一起发现更大的世界。"
+keyword: "赵伟, Zhw赵伟, Zhw, 疯狂的代码, Zhw, @CodeMadS2, 赵伟的博客, Zhw Blog, 博客, 个人网站, 互联网, 前端, 全栈, node, 天使的男朋友"
+baseurl: ""     # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
+weibo_username:     CodeMadS2
+zhihu_username:     CodeMadS2
 github_username:    CodeMadS2
-#twitter_username:  huxpro
-facebook_username:  huxpro
+#twitter_username:  CodeMadS2
+facebook_username:  CodeMadS2
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -50,7 +50,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: CodeMadS2
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -68,7 +68,7 @@ ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-about-description: "运筹帷幄，决胜千里，<br>离开世界之前，一切都是过程"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
