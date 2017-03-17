@@ -3,12 +3,11 @@ layout:     post
 title:      "「知乎」对中国用户而言，Pure Android 是否比 MIUI 或 Flyme 体验更好？"
 subtitle:   ""
 date:       2014-09-04 12:00:00
-author:     "Hux"
+author:     "CodeMadS2"
 header-img: "img/post-bg-android.jpg"
 tags:
     - 知乎
     - 交互设计
-    - Android
 ---
 
 > 这篇文章转载自[我在知乎上的回答](http://www.zhihu.com/question/25104721/answer/30108886)
@@ -20,9 +19,9 @@ tags:
     <br><b>毕竟是回答问题嘛，先给一个明确的答案</b>：
     <br>
     <br><b>否。（</b><b>对中国用户而言，Pure Android 并不比 MIUI 或 Flyme 体验更好。</b><b>）</b>
-    
+
     <p>从下面「 居然比关注数还多」的回答中，就可以看出大家都是急于站队的样子：</p>
-    
+
     <ul>
         <li>Google Service！翻墙很轻松好吗！Geek站过来，有品味绝逼原生阿。</li>
         <li>没用过Pure，国内Google能用！？本地化多重要，易用果断MIUI/Flyme 啊！（咦 米粉和魅粉居然在一致对外上达成了共识）</li>
@@ -35,7 +34,7 @@ tags:
     <br>
 
     <p>先说好理解的：</p>
-    
+
     <ul>
         <li><b>为什么 Geek 用户 都爱使用Pure Android？：</b>
         </li>

@@ -3,13 +3,12 @@ layout:     post
 title:      "iOS 9，为前端世界都带来了些什么？「译」"
 subtitle:   "iOS 9, Safari and the Web: 3D Touch, new Responsive Web Design, Native integration and HTML5 APIs"
 date:       2015-12-15
-author:     "Hux"
+author:     "CodeMadS2"
 header-img: "img/post-bg-ios9-web.jpg"
 catalog:    true
 tags:
     - 前端开发
     - JavaScript
-    - iOS
     - 译文
 ---
 
@@ -30,7 +29,7 @@ tags:
 
 * iPhone 6s 与 6s Plus 拥有 **“[3D Touch](http://www.apple.com/iphone-6s/3d-touch/)”**，这是一个全新的硬件特性，它可以侦测压力，是一个可以让你拿到手指压力数据的 API
 * iPad Pro 的 viewport 为 1024px，与以往的 iPad 全都不同
-* 想在 iPad Pro 上支持新的 Apple Pen？不好意思，目前似乎并没有适用于网站的 API 
+* 想在 iPad Pro 上支持新的 Apple Pen？不好意思，目前似乎并没有适用于网站的 API
 
 ###### 新的操作系统特性（与 web 相关的）
 
@@ -47,7 +46,7 @@ tags:
 * 关于 HTML5 Video，你现在可以在支持 [Picture in Picture（画中画）](https://developer.apple.com/library/prerelease/ios/documentation/WindowsViews/Conceptual/AdoptingMultitaskingOniPad/QuickStartForPictureInPicture.html#//apple_ref/doc/uid/TP40015145-CH14)的 iPad 设备上提供这项新功能；你的视频甚至可以在 Safari 关闭后继续播放
 * 更好的 ES6 支持：classes（类）, computed properties（可计算属性）, template literals（模版字符串）等
 * Backdrop CSS filters（背景滤镜）
-* CSS @supports 与 CSS Supports JavaScript API 
+* CSS @supports 与 CSS Supports JavaScript API
 * CSS Level4 伪选择器
 * 用于支持分页内容的 CSS Scroll Snapping
 * WKWebView 现在可以访问本地文件了
@@ -158,7 +157,7 @@ Slide Over 支持的 App 并不多，不过 Safari 名列其中，这意味着�
 
 ![iOS 9 RWD](http://www.mobilexweb.com/wp-content/uploads/2015/09/ios9rwd.png)
 
-##### Safari View Controller 
+##### Safari View Controller
 
 如果你用过 Twitter 或者 Facebook（或者微信，微博……），那么你一定知道很多 native app 在打开一个网页链接时并不会默认使用 Safari。它们试图让你留在它们的应用里，所以通过提供 webview 让你在应用内进行网页浏览。可是问题在于，这类 webview 并不会与浏览器共享 cookies，sessions，autofill（自动填充）与 bookmark（书签），为了解决这些问题，就有了 Safari View Controller。
 
@@ -240,7 +239,7 @@ PiP API（被称为 Presentation Mode API）目前只支持 iOS，它允许我�
 ```js
 video.webkitSetPresentationMode(
     video.webkitPresentationMode === "picture-in-picture" ?
-    "inline" : 
+    "inline" :
     "picture-in-picture"
 );
 ```
@@ -267,7 +266,7 @@ header {
 
 ##### CSS Scroll Snapping
 
-在 web 上实现分页内容（比如相册跑马灯）总是非常麻烦，无论是使用 JavaScript 框架、touch 事件还是 hacking 滚动条等等。Apple 新添加了一个很赞的 CSS 特性叫做 CSS Scroll Snapping。这个特性新增了一系列的 CSS 属性让你定义规则或者不规则的 snap zone（停留区域），这样滚动的位置就会“啪”地一下停在这个区域，而非像以前一样可以停在任何地方。  
+在 web 上实现分页内容（比如相册跑马灯）总是非常麻烦，无论是使用 JavaScript 框架、touch 事件还是 hacking 滚动条等等。Apple 新添加了一个很赞的 CSS 特性叫做 CSS Scroll Snapping。这个特性新增了一系列的 CSS 属性让你定义规则或者不规则的 snap zone（停留区域），这样滚动的位置就会“啪”地一下停在这个区域，而非像以前一样可以停在任何地方。
 
 来看个例子：
 
@@ -325,7 +324,7 @@ Bug 通常都要在几周之后才会显露出来，我也会持续跟进并更�
 
 ### 仍在等待……
 
-当 Mac 上的 Safari、桌面电脑与 Android 上的 Chrome 都已经为网站支持 Push Notification （通知推送）时，iOS 上的 Safari 仍然不支持这个特性。就 API 而言，我们仍然没有：WebRTC、getUserMedia、Service Worker、FileSystem API、Network Information API、Battery Status API、Vibration API 等等……你又在 iOS 上等待哪些特性呢？ 
+当 Mac 上的 Safari、桌面电脑与 Android 上的 Chrome 都已经为网站支持 Push Notification （通知推送）时，iOS 上的 Safari 仍然不支持这个特性。就 API 而言，我们仍然没有：WebRTC、getUserMedia、Service Worker、FileSystem API、Network Information API、Battery Status API、Vibration API 等等……你又在 iOS 上等待哪些特性呢？
 
 ### watchOS 与 tvOS
 
@@ -338,5 +337,5 @@ Bug 通常都要在几周之后才会显露出来，我也会持续跟进并更�
 
 ### 著作权声明
 
-本文译自 [iOS 9, Safari and the Web: 3D Touch, new Responsive Web Design, Native integration and HTML5 APIs --- Breaking the Mobile Web](http://www.mobilexweb.com/blog/ios9-safari-for-web-developers)   
+本文译自 [iOS 9, Safari and the Web: 3D Touch, new Responsive Web Design, Native integration and HTML5 APIs --- Breaking the Mobile Web](http://www.mobilexweb.com/blog/ios9-safari-for-web-developers)
 译者 [黄玄](http://weibo.com/huxpro)，首次发布于 [Hux Blog](http://huangxuan.me)，转载请保留以上链接

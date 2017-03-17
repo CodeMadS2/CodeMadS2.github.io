@@ -2,13 +2,12 @@
 layout:     post
 title:      "Definition of End to End User Scenarios"
 subtitle:   "Paper wrote on my birthday"
-date:       2015-03-31 
-author:     "Hux"
+date:       2015-03-31
+author:     "CodeMadS2"
 header-img: "img/post-bg-e2e-ux.jpg"
 tags:
     - 交互设计
     - English-only
-    - UX Design
 ---
 
 
@@ -16,16 +15,16 @@ tags:
 
 To explain what is "End to End User Scenarios", we should first explain what is "End to End", which we can called E2E for short.
 
-There is not a very clear definition of E2E in wiki.<sup>[[1]](#ref1)</sup> In dictionary, it can both refer to "throughout" or "the end of one object connect to the end of another object".<sup>[[2]](#ref2)</sup> 
+There is not a very clear definition of E2E in wiki.<sup>[[1]](#ref1)</sup> In dictionary, it can both refer to "throughout" or "the end of one object connect to the end of another object".<sup>[[2]](#ref2)</sup>
 
 E2E is usually used in Logistics, Computer Networking and Software Testing. For example, End-to-end testing is a methodology used to test whether the flow of an application is performing as designed from start to finish. The entire application is tested in a real-world scenario.
 
 So in my view, the most essential part of E2E is that **we must focus on the entire process, including every parts in a use case.**
 
 
-### User Scenarios! 
+### User Scenarios!
 
-User scenarios is a common term in UX Design,<sup>[[3]](#ref3)</sup><sup>[[4]](#ref4)</sup> which expands upon our persona and user stories by including details. It told us about users' motivation, goals and actions on our products. 
+User scenarios is a common term in UX Design,<sup>[[3]](#ref3)</sup><sup>[[4]](#ref4)</sup> which expands upon our persona and user stories by including details. It told us about users' motivation, goals and actions on our products.
 
 To make it better, there comes **"End to End User Scenarios", not just tell a fragment of users' activities, but pay attention to the entire process the user undergoes.**
 
@@ -40,7 +39,7 @@ We just put the two terms together and give it a explanation, but it can be fart
 
 * **Extend the scope**
 
-There is a interesting instance <sup>[[5]](#ref5)</sup> told that sometimes we are already satisfy of our designed UX, but if we look beyond the both ends of the designed experience by extending the scope of the timeline before and after… we may sadly realize that it’s a complete car crash outside the scope of the designed experience...  
+There is a interesting instance <sup>[[5]](#ref5)</sup> told that sometimes we are already satisfy of our designed UX, but if we look beyond the both ends of the designed experience by extending the scope of the timeline before and after… we may sadly realize that it’s a complete car crash outside the scope of the designed experience...
 
 Try to extend the scope and consider more, so can we design a much broader experience for our user.
 

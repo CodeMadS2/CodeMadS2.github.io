@@ -2,20 +2,18 @@
 layout:     post
 title:      "Unix/Linux 扫盲笔记"
 subtitle:   "不适合人类阅读，非常水的自我笔记"
-date:       2015-04-14 
-author:     "Hux"
+date:       2015-04-14
+author:     "CodeMadS2"
 header-img: "img/post-bg-unix-linux.jpg"
 catalog: true
 tags:
     - OS
-    - Unix
-    - Linux
 ---
 
 > This document is not completed and will be updated anytime.
 
 
-## Unix 
+## Unix
 
 
 > Unix is a **family** of multitasking, multiuser computer OS.
@@ -24,7 +22,7 @@ tags:
 Derive from the original **AT&T Unix**, Developed in the 1970s at **Bell Labs** (贝尔实验室), initially intended for use inside the **Bell System**.
 
 - #### Bell Labs
-Bell 和 AT&A 在那时已经是一家了，可以看到那时的通信公司真是一线 IT 公司呢。 
+Bell 和 AT&A 在那时已经是一家了，可以看到那时的通信公司真是一线 IT 公司呢。
 **C 语言也是 Bell Labs 的产物**，从一开始就是为了用于 Unix 而设计出来的。所以 Unix （在 73 年用 C 重写）在高校流行后，C 语言也获得了广泛支持。
 
 
@@ -43,11 +41,11 @@ AT&T licensed Unix to outside parties(第三方) from the late 1970s, leading to
 FreeBSD 不但是 Open Source BSD 中占有率最高的，还直接影响了 Apple Inc : NeXT Computer 的团队在 FreeBSD 上衍生出了 NeXTSTEP 操作系统，这货后来在 Apple 时期演化成了 **Darwin** ，这个“达尔文”居然还是个开源系统，而且是 the Core of **Mac OS X** and **iOS**.
 
 - #### NeXTSTEP
-An **object-oriented**, multitasking OS. Low-level C but High-level OC language and runtime the first time, combined with an **OO aplication layer** and including several "kits".    
-大家都知道 NeXT 是 Steve Jobs 被 forced out of Apple 后和 a few of his coworkers 创办的，所以 **NeXTSTEP 绝对是证明 Jobs 实力的作品。** 
+An **object-oriented**, multitasking OS. Low-level C but High-level OC language and runtime the first time, combined with an **OO aplication layer** and including several "kits".
+大家都知道 NeXT 是 Steve Jobs 被 forced out of Apple 后和 a few of his coworkers 创办的，所以 **NeXTSTEP 绝对是证明 Jobs 实力的作品。**
 
 - #### Darwin
-[Darwin](https://en.wikipedia.org/wiki/Darwin_(operating_system)), the core set of components upon which Mac OS X and iOS based, mostly POSIX compatible, but has never, by itself, been certified as being compatible with any version of **POSIX**. (OS X, since Leopard, has been certified as compatible with the Single UNIX Specification version 3)  
+[Darwin](https://en.wikipedia.org/wiki/Darwin_(operating_system)), the core set of components upon which Mac OS X and iOS based, mostly POSIX compatible, but has never, by itself, been certified as being compatible with any version of **POSIX**. (OS X, since Leopard, has been certified as compatible with the Single UNIX Specification version 3)
 **所以说 Mac OS X 算是很正统 Unix 的了**
 
 - #### POSIX
@@ -73,10 +71,10 @@ An **object-oriented**, multitasking OS. Low-level C but High-level OC language 
 
 > A Unix-like (sometimes referred to as UN*X or *nix) operating system is one that behaves in a manner similar to a Unix system, while not necessarily conforming to or being certified to any version of the **Single UNIX Specification**.
 
-There is no standard for defining the term.  
+There is no standard for defining the term.
 其实 Unix-like 是个相对模糊的概念：
 
-* 最狭义的 Unix 单指 Bell Labs's Unix 
+* 最狭义的 Unix 单指 Bell Labs's Unix
 * 稍广义的 Unix 指代所有 Licensed Unix, 即通过了 SUS 的 Unix-like ，比如 OS X
 * 最广义的 Unix 即所有 Unix-like 系统，无论它是否通过过任何 SUS，包括 Linux，BSD Family 等
 
@@ -120,9 +118,9 @@ The GNU Project is a **free software, mass collaboration** project, which based 
 * GNU software guarantees these freedom-rights legally (via its license).
 * So it is not only FREE but, more important, FREEDOM.
 
-In order to ensure that the *entire* software of a computer grants its users all freedom rights (use, share, study, modify), even the most fundamental and important part, **the operating system**, needed to be written. 
+In order to ensure that the *entire* software of a computer grants its users all freedom rights (use, share, study, modify), even the most fundamental and important part, **the operating system**, needed to be written.
 
-This OS is decided to called **GNU (a recursive acronym meaning "GNU is not Unix")**. By 1992, the GNU Project had completed all of the major OS components except for their kernel, *GNU Hurd*. 
+This OS is decided to called **GNU (a recursive acronym meaning "GNU is not Unix")**. By 1992, the GNU Project had completed all of the major OS components except for their kernel, *GNU Hurd*.
 
 With the release of the third-party **Linux Kernel**, started independently by *Linus Torvalds* in 1991 and released under the GPLv0.12 in 1992, for the first time it was possible to run an OS **composed completely of free software**.
 
@@ -139,7 +137,7 @@ Anyway, there eventually comes to the **GNU/Linux**
 * [Mozilla Public License](http://en.wikipedia.org/wiki/Mozilla_Public_License)
 * [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 * [BSD Public License](http://en.wikipedia.org/wiki/BSD_licenses)
-	* GPL 强制后续版本必须是自由软件，而 BSD 的后续可以选择继续开源或者封闭	
+	* GPL 强制后续版本必须是自由软件，而 BSD 的后续可以选择继续开源或者封闭
 * [Apache License](http://en.wikipedia.org/wiki/Apache_License)
 
 
@@ -147,14 +145,14 @@ Anyway, there eventually comes to the **GNU/Linux**
 
 #### Android
 
-Android is a mobile OS based on **Linux Kernel**, so it's definitely **Unix-like**.  
+Android is a mobile OS based on **Linux Kernel**, so it's definitely **Unix-like**.
 
-**Linux is under GPL so Android has to be open source**. 
-Android's source code is released by Google under open source licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software developed and licensed by Google *(GMS are all proprietary)*  
+**Linux is under GPL so Android has to be open source**.
+Android's source code is released by Google under open source licenses, although most Android devices ultimately ship with a combination of open source and proprietary software, including proprietary software developed and licensed by Google *(GMS are all proprietary)*
 
 #### Android Kernel
-  
-Android's kernel is based on one of the Linux kernel's long-term support (LTS) branches.   
+
+Android's kernel is based on one of the Linux kernel's long-term support (LTS) branches.
 
 **Android's variant of the Linux kernel** has further architectural changes that are implemented by Google outside the typical Linux kernel development cycle, and, certain features that Google contributed back to the Linux kernel. Google maintains a public code repo that contains their experimental work to re-base Android off the latest stable Linux versions.
 
@@ -163,18 +161,18 @@ Android Kernel 大概是 Linux Kernel 最得意的分支了，Android 也是 Lin
 
 #### Android ROM
 
-既然提到 Android 就不得不提提 Android ROM 
+既然提到 Android 就不得不提提 Android ROM
 
-ROM 的本义实际上是只读内存：  
+ROM 的本义实际上是只读内存：
 
 **Read-only memory** (ROM) is a class of storage medium used in computers and other electronic devices. Data stored in ROM can only be modified slowly, with difficulty, or not at all, so it is **mainly used to distribute firmware (固件)** (software that is very closely tied to specific hardware, and unlikely to need frequent updates).
 
-ROM 在发展的过程中不断进化，从只读演变成了可编程可擦除，并最终演化成了 Flash  
+ROM 在发展的过程中不断进化，从只读演变成了可编程可擦除，并最终演化成了 Flash
 
 * PROM (Programmable read-only memory)
 * EPROM (Erasable programmable read-only memory)
 * EEPROM (Electrically erasable programmable read-only memory)
-	* Flash memory (闪存) 
+	* Flash memory (闪存)
 
 Flash 的出现是历史性的，它不但可以作为 ROM 使用，又因其极高的读写速度和稳定性，先后发展成为U盘（USB flash drives）、移动设备主要内置存储，和虐机械硬盘几条街的固态硬盘（SSD），可以说这货基本统一了高端存储市场的技术规格。
 
@@ -190,7 +188,7 @@ Flash 的出现是历史性的，它不但可以作为 ROM 使用，又因其极
 
 #### Chrome OS
 
-Chrome OS is an operating system based on the **Linux kernel** and designed by Google to work with web applications and installed applications. 
+Chrome OS is an operating system based on the **Linux kernel** and designed by Google to work with web applications and installed applications.
 
 虽然目前只是个 Web Thin Client OS ，但是 RoadMap 非常酷……
 

@@ -3,7 +3,7 @@ layout:     post
 title:      "React vs Angular 2：冰与火之歌「译」"
 subtitle:   "React versus Angular 2: There Will Be Blood"
 date:       2016-02-01 12:00:00
-author:     "Hux"
+author:     "CodeMadS2"
 header-img: "img/post-bg-re-vs-ng2.jpg"
 header-mask: 0.3
 catalog:    true
@@ -212,7 +212,7 @@ JSX 具备的代码自动补全、编译时检查与丰富的错误提示已经�
 
 不过，我承认关于框架大小的担忧可能被夸大了：
 
-> 大型应用往往至少有几百 KB 的代码，经常还更多，不管它们是不是使用了框架。开发者需要做很多的抽象来构建一个复杂的软件。无论这些抽象是来自框架的还是自己手写的，它都会对应用的加载性能造成负面影响。  
+> 大型应用往往至少有几百 KB 的代码，经常还更多，不管它们是不是使用了框架。开发者需要做很多的抽象来构建一个复杂的软件。无论这些抽象是来自框架的还是自己手写的，它都会对应用的加载性能造成负面影响。
 >
 >  就算你完全杜绝框架的使用，许多应用仍然是几百 KB 的 JavaScript 在那。 — Tom Dale [JavaScript Frameworks and Mobile Performance](http://tomdale.net/2015/11/javascript-frameworks-and-mobile-performance/)
 
@@ -238,5 +238,5 @@ Angular 2 相比第一代有着长足的进步。新的组件模型比第一代�
 
 ### 著作权声明
 
-本文译自 [Angular 2 versus React: There Will Be Blood](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.v4y4euy1r)，其实[之前有人翻译过](http://www.w3ctech.com/topic/1675?from=timeline&isappinstalled=0)，但是翻得水平有一点不忍直视，我们不希望浪费这篇好文章。  
+本文译自 [Angular 2 versus React: There Will Be Blood](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.v4y4euy1r)，其实[之前有人翻译过](http://www.w3ctech.com/topic/1675?from=timeline&isappinstalled=0)，但是翻得水平有一点不忍直视，我们不希望浪费这篇好文章。
 本文由 [@李凌豪](https://www.zhihu.com/people/li-ling-hao) [@黄玄](https://www.zhihu.com/people/huxpro) 联合翻译，首次发布于[前端外刊评论 · 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine)，转载请保留原文链接 ;)
