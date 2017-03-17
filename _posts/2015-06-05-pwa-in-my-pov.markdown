@@ -4,8 +4,8 @@ title:      "Progressive Web App 之我见"
 subtitle:   "Slides: Progressive Web App, in my points of view"
 iframe:     "//huangxuan.me/pwa-in-my-pov/"
 navcolor:   "invert"
-date:       2016-06-05
-author:     "Hux"
+date:       2015-06-05
+author:     "CodeMadS2"
 tags:
     - 前端开发
     - JavaScript
@@ -29,12 +29,12 @@ tags:
 - 1 - Installability
 - 2 - App Shell
 - 3 - Offline
-    - SERVICE WORKER! 
+    - SERVICE WORKER!
 - 4 - Re-engageable
     - Push Notification
 - CONS in my pov
 - PROS in my pov
-- Why Web? 
+- Why Web?
 
 
 ### Power by [Yanshuo.io（演说.io）](https://yanshuo.io)

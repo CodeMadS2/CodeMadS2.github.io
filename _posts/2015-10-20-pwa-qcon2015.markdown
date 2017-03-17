@@ -1,11 +1,11 @@
 ---
 layout:     keynote
-title:      "Progressive Web Apps，复兴序章「QCon 上海 2016」"
-subtitle:   "Slides: Progressive Web Apps, Make Web Great Again. (QCon Shanghai 2016)"
-iframe:     "//huangxuan.me/pwa-qcon2016/"
+title:      "Progressive Web Apps，复兴序章「QCon 上海 2015」"
+subtitle:   "Slides: Progressive Web Apps, Make Web Great Again. (QCon Shanghai 2015)"
+iframe:     "//huangxuan.me/pwa-qcon2015/"
 navcolor:   "invert"
-date:       2016-10-20
-author:     "Hux"
+date:       2015-10-20
+author:     "CodeMadS2"
 tags:
     - 前端开发
     - JavaScript
@@ -44,18 +44,18 @@ tags:
             - On Activate
             - SW Brings Architectural Revolution
     - Re-engageable
-- PWA In Production 
+- PWA In Production
     - User Expectation & Guiding
     - Low Deliver Friction
 - PWA vs. Others
 - The Belief In Web
     - One Web
-    - Fulfill WWDC 2007 
+    - Fulfill WWDC 2007
 
 
-### Notes  
+### Notes
 
-This slides is powered by [Yanshuo.io (演说.io)](http://yanshuo.io), a online software helping you create, store and share web slides. 
+This slides is powered by [Yanshuo.io (演说.io)](http://yanshuo.io), a online software helping you create, store and share web slides.
 
 `index.html` is the HTML source code exported from [Yanshuo.io](http://yanshuo.io), and many of its dependencis (js, css, fonts) are still linked to CDN of [Yanshuo.io](http://yanshuo.io). You can do any secondary development and host it by yourself.
 

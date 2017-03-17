@@ -3,8 +3,8 @@ layout:     keynote
 title:      "都 2015 年了，CSS 怎么还是这么糟糕"
 subtitle:   "Slides: CSS Still Sucks 2015"
 iframe:     "//huangxuan.me/css-sucks-2015/"
-date:       2015-12-28
-author:     "Hux"
+date:       2014-12-28
+author:     "CodeMadS2"
 tags:
     - 前端开发
     - CSS
@@ -42,7 +42,7 @@ tags:
         - **SUIT**
     - **Atomic CSS**
     - **CSS in JS**
-    - **CSS Modules**  
+    - **CSS Modules**
         - Interoperable CSS
     - PostCSS, again
 - My Opinionated Proposal
